@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: django-k8s-web
-        image: graystum/django-k8s-web:latest
+        image: rozarioagro/django-k8s-web
         imagePullPolicy: Always
         envFrom:
           - secretRef:
