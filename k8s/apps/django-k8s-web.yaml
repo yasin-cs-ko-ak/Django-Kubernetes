@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: django-k8s-web
-        image: shp7724/django-k8s-resource-monitor:latest
+        image: cfe-k8s/django-k8s-web:latest
         imagePullPolicy: Always
         envFrom:
           - secretRef:
